@@ -11,15 +11,12 @@ const Profile = () => {
         firebaseContext.getUser(profileContext.user.uid).then((result)=> setData(result.docs[0].data()))
         
     },[])
-   
-    // console.log(profileContext.user);
-    // console.log("data",data);
   return (
     <div className="bg-white p-6 pl-32 shadow-md w-full h-screen"
 
     >
       <div className="flex items-center">
-        <img src={profileContext.user.photoURL} alt="Avatar" className="w-56 h-48 rounded-[50%] " />
+        <img src={profileContext.user.photoURL} alt="Avatar" className="w-56 h-48 rounded-[50%] mx-8" />
         <div>
           <h2 className="text-5xl font-semibold">{data.username}</h2>
           <p className="text-gray-600 text-xl">{data.designation}</p>

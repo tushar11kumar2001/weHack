@@ -107,7 +107,7 @@ const AddPatients = () => {
                           id="height"
                           type="text"
                           className="border border-gray-300 rounded-md p-2 w-full"
-                          placeholder="Height in meter"
+                          placeholder="Height in cm"
                         />
                       </div>
                       <div className="mt-2 text-left">
@@ -117,7 +117,7 @@ const AddPatients = () => {
                           id="age"
                           type="text"
                           className="border border-gray-300 rounded-md p-2 w-full"
-                          placeholder="age"
+                          placeholder="Years"
                         />
                       </div>
                       <div className="mt-2 text-left">

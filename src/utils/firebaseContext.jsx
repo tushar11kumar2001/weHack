@@ -93,7 +93,7 @@ const FirebaseContextProvider = (props) => {
         updateProfile(user, {
           displayName: name,
           photoURL:
-            "https://a.storyblok.com/f/191576/1200x800/215e59568f/round_profil_picture_after_.webp",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1bpO0XDD8fbmRvnbnkCoQNFFoH3AqofVTg&usqp=CAU",
         })
           .then(() => {
             const { displayName, email, uid, photoURL } = auth.currentUser;
@@ -108,7 +108,7 @@ const FirebaseContextProvider = (props) => {
             );
           })
           .catch((error) => {
-            // An error occurred
+            console.log(error);
           });
 
         sendEmailVerification(user).then(() => {
@@ -143,7 +143,6 @@ const FirebaseContextProvider = (props) => {
       designation: designation,
       mobile: mobile,
       address: address,
-      //  imageURL:uploadResult.ref.fullPath,
     });
   };
 

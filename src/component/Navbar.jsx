@@ -1,7 +1,9 @@
 import React from 'react';
 import AddPatients from './AddPatients';
+import { useProfileContext } from '../utils/profileContext';
 
 const Navbar = () => {
+  const profileContext = useProfileContext();
   return (
     <nav className="bg-[#90e0ef] shadow-lg">
       <div className="pl-32">
@@ -28,7 +30,7 @@ const Navbar = () => {
 
               <div className="relative">
                 <button className="  p-1 rounded-full text-gray-400 " id="user-menu-button" aria-expanded="false" aria-haspopup="true">
-                  <img className="h-8 w-8 rounded-full" src="https://static.vecteezy.com/system/resources/previews/005/005/788/original/user-icon-in-trendy-flat-style-isolated-on-grey-background-user-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-free-vector.jpg" alt="Profile" />
+                  <img className="h-8 w-8 rounded-full" src={profileContext.user.photoURL} alt="Profile" />
                 </button>
 
               </div>
