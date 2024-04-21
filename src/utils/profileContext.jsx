@@ -7,6 +7,7 @@ export const useProfileContext = ()=>useContext(profileContext);
 const ProfileContextProvider = (props)=>{
     const [user,setUser] = useState({});
     const [patientList,setPatientList] = useState(null);
+    const [x,setX] = useState([]);
     const userData = (data)=>{
         setUser(data)
     }
@@ -18,7 +19,9 @@ const ProfileContextProvider = (props)=>{
         {  user,
            userData,
            patientList,
-           setPatient
+           setPatient,
+           x,
+           setX
         }
     }>
     {props.children}

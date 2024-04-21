@@ -13,7 +13,6 @@ const Profile = () => {
     },[])
   return (
     <div className="bg-white p-6 pl-32 shadow-md w-full h-screen"
-
     >
       <div className="flex items-center">
         <img src={profileContext.user.photoURL} alt="Avatar" className="w-56 h-48 rounded-[50%] mx-8" />

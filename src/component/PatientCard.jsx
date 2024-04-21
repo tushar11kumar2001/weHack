@@ -30,7 +30,7 @@ const PatientsCard = ({data}) => {
       <h1 className=' text-lg font-semibold px-20 text-center '><mark className='bg-[#90e0ef]'>Drip will almost finished !!</mark>
       <i 
       onClick={()=>setShow(false)} 
-      class="fa-solid fa-circle-exclamation ml-4 text-red-600 cursor-pointer"></i>
+      className="fa-solid fa-circle-exclamation ml-4 text-red-600 cursor-pointer"></i>
       </h1>
       </div>
       </div>

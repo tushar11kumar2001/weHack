@@ -76,6 +76,7 @@ const FirebaseContextProvider = (props) => {
         const errorCode = error.code;
         const errorMessage = error.message;
         console.log(errorCode + errorMessage);
+        alert("Enter a valid gamil / password")
       });
   };
 

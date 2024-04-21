@@ -27,7 +27,7 @@ const AddPatients = () => {
  }
 
   const handleToggleModal = () => {
-    console.log("isModelOpen");
+    // console.log("isModelOpen");
     setIsModalOpen(!isModalOpen);
   };
 
