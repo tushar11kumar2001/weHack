@@ -14,5 +14,13 @@
    - Add New Patients
    - Check patient details
    - Send Notification when drip is low
-   - Profile
+   - Profile Page
    - You can remove patient from database when patient is discharge
+
+## Tech Stack
+  - VITE+REACT
+  - Tailwind
+  - react-router-dom
+  - Google Firebase for  Backend service 
+  - GIT
+  - GITHUB
