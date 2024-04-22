@@ -25,4 +25,4 @@
   - GIT
   - GITHUB
 
-![Image Name](F:\Namaste_React\weHack\public\Screenshot (18).png)
+<img src="public/Screenshot(18).png" alt="Image Description">
