@@ -25,4 +25,4 @@
   - GIT
   - GITHUB
 
-<img src="public/Screenshot(18).png" alt="Image Description">
+<img src="./public/Screenshot (18).png" alt="Image Description">
