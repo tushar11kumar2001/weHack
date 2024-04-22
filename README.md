@@ -29,3 +29,9 @@
 ## Our webpage contain these following pages : 
    - ## SignIn / SignUp page
       - <img src="./public/Screenshot (21).png" alt="Image Description">
+   - ## Home page
+      - <img src="./public/Screenshot (18).png" alt="Image Description">
+   - ## Patient Details
+      - <img src="./public/Screenshot (19).png" alt="Image Description"> 
+   - ## Alter notification
+      - <img src="./public/Screenshot (20).png" alt="Image Description">  
