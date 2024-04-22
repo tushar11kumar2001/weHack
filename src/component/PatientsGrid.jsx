@@ -13,7 +13,11 @@ const PatientsGrid = () => {
     },[newobj2])
 
     // console.log(dataArr);
-    // if(dataArr.length === 0) return <div className='pl-40 pt-16 '>You have not any assigned patient, Please add new patient</div>
+     if((profileContext.x.length === 0)) return <div className='pl-40 pt-16 text-lg font-bold'>
+      <p className='text-center'>You have not any assigned patient, Please add new patient...</p>
+      <img src={import.meta.env.VITE_PATIENT} alt="patient bed"
+      className='relative left-[20%] top-[50px] w-[800px]' />
+      </div>
   return (
     <div  className="pl-32 pt-16 grid grid-cols-3 gap-y-6" >
     {
