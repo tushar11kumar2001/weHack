@@ -34,4 +34,7 @@
    - ## Patient Details
       - <img src="./public/Screenshot (19).png" alt="Image Description"> 
    - ## Alert notification
-      - <img src="./public/Screenshot (20).png" alt="Image Description">  
+      - <img src="./public/Screenshot (20).png" alt="Image Description"> 
+
+## Conclusion :
+  - Our software is integrated with the hardware and from this we are able to optimise our time  and Nurse is able to get the notifications of all the patients whose drip is below the 10ml . 
