@@ -132,11 +132,9 @@ const FirebaseContextProvider = (props) => {
     designation,
     address
   ) => {
-    // const imageRef = ref(fiebaseStorage,`uploads/images/${Date.now()}-${profileImg.name}`);
-    // const uploadResult = await uploadBytes(imageRef, profileImg);
+   
     const customDocId = name;
-    // Reference to the document with the custom ID
-    const docRef = doc(firebaseStore, `staff`, customDocId);
+    const docRef = doc(firebaseStore, "staff", customDocId);
     return await setDoc(docRef, {
       username: name,
       email: email,

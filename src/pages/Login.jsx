@@ -114,7 +114,7 @@ export default function Login() {
                   htmlFor="designation"
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
-                  Desigation
+                  Designation
                 </label>
                 <div className="mt-2">
                   <input
@@ -134,7 +134,7 @@ export default function Login() {
                   htmlFor="address"
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
-                  Adress
+                  Address
                 </label>
                 <div className="mt-2">
                   <input
